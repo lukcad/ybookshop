@@ -1,23 +1,28 @@
-# Getting Started
+# ybookshop
 
-Welcome to your new project.
+## Overview
 
-It contains these folders and files, following our recommended project layout:
+`ybookshop` is project which I use to follow training by DJ lessons.
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+You can find those lessons here: [Youtube CAP video lessons](https://www.youtube.com/watch?v=gu5r1EWSDSU&list=PLMTJhP34Nx6mAXPKWj7wRYPGBowTrN4AJ)
 
+It contains CAP project which has modification from version to version by lessons.
 
-## Next Steps
+I started track it from Lesson 10 which was dedicatied to compositions.
+
+## Run locally
+
+- **Prepare local environment** into your VS code, you can use dockerized environment which is prepared by mere from this repository: [caplukcadhf.git](https://github.com/lukcad/caplukcadhf.git)
+- Clone this project by command:
+  
+      git clone https://github.com/lukcad/ybookshop.git
+      cd ybookshop
+      npm i
 
 - Open a new terminal and run `cds watch`
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
+- Test achieved services by http://localhost:4004
+- Do modification of code as you wish, for example, change a database schema [db/schema.cds](db/schema.cds).
 
 
 ## Learn More
