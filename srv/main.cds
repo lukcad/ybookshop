@@ -4,5 +4,5 @@ service bookshop {
   entity Books as projection on org.qmacro.Books;
   entity Authors as projection on org.qmacro.Authors;
   entity Orders as projection on org.qmacro.Orders;
-  entity OrderItems as projection on org.qmacro.OrderItems;
+  //entity OrderItems as projection on org.qmacro.OrderItems;
 }
