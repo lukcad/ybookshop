@@ -1,4 +1,4 @@
-ID,title,author_ID
-'cfdd0bb7-f99c-4633-92e8-b1599bf5e1aa',The example of code by DJ,'fe342a2b-e8ad-4039-9210-0c23acfc4128'
-'e780eea7-3db0-40ea-8dab-3967c2faaec0',Mostly Harmless,'fe342a2b-e8ad-4039-9210-0c23acfc4128'
-'a469321e-414c-4800-af0d-722123bbbdca',Piece for workld,'22cba784-ac2c-454e-8389-fd9431693b51'
+ID,title,author_ID,stock,price
+cfdd0bb7-f99c-4633-92e8-b1599bf5e1aa,The example of code by DJ,fe342a2b-e8ad-4039-9210-0c23acfc4128,42,10
+e780eea7-3db0-40ea-8dab-3967c2faaec0,Mostly Harmless,fe342a2b-e8ad-4039-9210-0c23acfc4128,100,20
+a469321e-414c-4800-af0d-722123bbbdca,Piece for workld,22cba784-ac2c-454e-8389-fd9431693b51,5,30

@@ -8,6 +8,8 @@ entity Books : cuid {
 
   title  : String;
   author : Association to Authors;
+  stock: Integer;
+  price: Integer;
 }
 
 entity Authors : cuid {
